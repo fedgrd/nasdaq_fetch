@@ -1,44 +1,28 @@
-"""
-Fetch last sale data from Nasdaq.
-Author: Federico Giordani
-"""
-#import urllib2 to import stock data
+
+from page_range_ns import page_range
 import urllib2
 
-#def function to find largest number in string
-def findLargestNumber(text):
-    ls = list()
-    for w in text.split():
-        try:
-            ls.append(int(w))
-        except:
-            pass
-    try:
-        return max(ls)
-    except:
-        return None
+#clean data
+def fetch_data(ticker, time, n):
+    resp = urllib2.urlopen('http://www.nasdaq.com/symbol/'+str(ticker)+'/time-sales?time='+str(time)+'&pageno='+str(n))
+    data = resp.read()
+    with open("data"+str(n)+str(time), "w") as f:
+        f.write(data)
 
-#find page range function || reads only text
-def page_range(ticker):
-
-#read initial page range
-    response = urllib2.urlopen('http://www.nasdaq.com/symbol/'+ str(ticker) + '/time-sales?time=1')
-    page = response.read()
-    with open("page_test.txt", "w") as f:
-        f.write(page)
-
-#searchfile for number of pages in current timeframe
-    searchfile = open("page_test.txt", "r")
-    clean_line = ""
+def clean_data(t, n):
+    time = []
+    price = []
+    volume = []
+    searchfile = open("data"+str(n)+str(t), "r")
     for line in searchfile:
-        if "quotes_content_left_lb_FirstPage" in line:
-            clean_line += line
-    clean_line = clean_line.replace('<', ' ')
-    clean_line = clean_line.replace('>', ' ')
-
-#call largest number function on open text file
-    page_r = findLargestNumber(clean_line)
-    print page_r
-
-tick = str(raw_input('Please specify stock ticker (lowercase): '))
-page_range(tick)
+        if "<td>" in line and "</td>" in line and "<tr>" not in line:
+            if ";" in line:
+                price.append(line)
+            elif ":" in line:
+                time.append(line)
+            else:
+                volume.append(line)
+    searchfile.close
+    
+fetch_data('goog', 1, 1)
+clean_data(1, 1)
