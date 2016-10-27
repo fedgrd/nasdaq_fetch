@@ -56,7 +56,7 @@
 <script src="http://www.nasdaq.com/aspx/marketstatus.aspx"></script>
 
 <script src="http://www.nasdaq.com/includes/jquery.min.js"></script>
-<script src="http://www.nasdaq.com/includes/global.min-09292016v1.js"></script>
+<script src="http://www.nasdaq.com/includes/global.min-10262016v1.js"></script>
 
 <!-- the dynamic css container -->
 <style type="text/css" title="dynamic"></style>
@@ -83,7 +83,7 @@ nasdaqIndexRow.init("NasdaqDjiaspx");
 <!-- End includes/head-quotes-content.inc -->
 
 <script type="text/javascript">
-    var server_time = new Date(1477516462095);
+    var server_time = new Date(1477561342587);
 </script>
 
 
@@ -1018,13 +1018,13 @@ div#left-column-div {
 			    <span id="qbar_sectorLabel"><b>Industry: </b><a href="http://www.nasdaq.com/screening/companies-by-industry.aspx?industry=Technology">Technology</a></span> <br />
 			    <b>Community Rating:</b> <script src="http://www.nasdaq.com/aspx/community/sentiment.aspx?selected=GOOG&amp;size=small"></script> <br />
 			    
+				    <b>View:&nbsp;</b>
+				    <span class="displayIB ValignT sun-icon"></span>&nbsp;
+				    <a title="Alphabet&#32;Inc. Pre-Market Trading" href="http://www.nasdaq.com/symbol/goog/premarket">GOOG&nbsp;Pre-Market</a>
+			    
 	
 			    
 
-			    
-				    <b>View:&nbsp;</b>
-				    <span class="displayIB ValignT moon-icon"></span>&nbsp;
-				    <a title="Alphabet&#32;Inc. After Hours Trading" href="http://www.nasdaq.com/symbol/goog/after-hours">GOOG&nbsp;After Hours</a>
 			    
 		    </div>
 		    <div id="qwidget-sector-wrap" class="marginR10px">
@@ -1405,11 +1405,11 @@ var qbUseNewNav = true;
         The NASDAQ Last Sale Intraday Trade History Report shows real-time time and sales data for all of your favorite U.S. stocks (listed on NASDAQ, NYSE, and AMEX).
     </p>
     <form method="post" action="/symbol/goog/time-sales" id="form1">
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="XRqRwIgG2IaZvkK9dReePo6OGVg2502nGlJUkYYrf6scVb1AnajgtWEcuRv8K1SOSInk7CTDajsg8lSB3TtSztK9nXpP+Mf4RotfNp5OKKoif5sOI4BOAyG+jpi/k3N1+kvFUk47CGmBBrgbC1Dp6Zb3VttfGwvI/T9DTvCUh+aO1QI1RQB3H5700NZnhPYlZkm3zXmxgMhIIzaJ4p/5EHnR87IKykSa0Rr6csUKKKuanLxS2HzIJpPyyxwwN1IBgfqoLm9i/T9vthzqlKSNWEcAdkPwflGdAXdogxCx1V4DUez3kScLrcvwfhgapejbrW8FbCJmXOH5ZSxABFYnf2LC8RY92a1ZT3v4R4hvF4Q3NtIHlWYkXCAg1YENTiWKzqPTYqx14lSarwI6GrFp9T0ifBlQeaDIpTi3xgnOM2TMR7qRO0zNMVqmma8YvGPP7ffXDZdVvorOlQlW91UhS16aVd5m8myzdLBUJPnYbI/e804ug+Ho27iEkN+5c27Vb1z099L3s+Ne1YRQjBh2sHRRQEjK8TcP3sOtQMGZsMRhKDXccosFLoI928h2weg3N7Xvu0dc8S2treMbhdFibW0N+iOQUgegkjt8RtF5HmPPoVF4tQ9X9Zn1JxOb8MNgn+WUAI+7OqMUaXwtxYMR0oM0fuMU5pEsXALR5EPlO03YBqeCsWn2Te6qS08AmOdKXumH9PoEzzrfHzYNJcv2Mg==" />
 
 <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="0BF1D087" />
 <input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="2snkVU7IQhRdD7FQOWj+ihznzhLBGdHXm/frK3EPptPM8QIILEcp8/2Ejxml+WBINkjkzT/jt5LjbX2760dnXAGUHyllOyPFmtKapzhPrz351aU89DbKX8xb4DEhSAD8JF0BpiTjQdy4egIh426sqcjoEy/cPOLnqS4nytnpOvwNKHQ5/8fX4CcjWF8EMyB7CdYBvKpIpEiBWEqWydrwQ01CK0vLmbPZzz2LzXi/7sDCoe8HgrTDSytE276wUZdKMWwSxLMNs/LAlx8lPA0ZHuqMZ1vm7XwS2Uu+lAsIfigU2AfeVRics9f1v5gojxr3IHlAqObbhKYoiAB+zwk02usFIHgxuSliAyz9tfb2xlrE86cPC+65G9QNZqBgg7+NxXNAKtamfyYg58miPvC11w==" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="kFe05WdkIZFmgxvGj5S6azj5ar1AqQJZ9XAZdZm+nnS3JarNQVdRrRTA5G93xYBQhj97D/uJy9alLFJshJumTAAGwEcnAZPIRQZpD5+1fGZ3h1geB+qUpQtp7Qt+Ue2kaCMTxRgFFOP9dbtA+F1CMEA+Rid0aKH1FrH6m/ulAEEm/FbJ7M2dpQ/m/sVz6aFOov6P7mqTsLU8uS8WA/QWUMne2+5cRlBcEbrQknucPUGeHR1YcgWkrZINn08bQRlLO1D+/MCkhvempxmR7WYGkoks3N+EaUOz8SRWLl0h1a0du2l1ebu03zYFS7MnJ2PS4//mZzaFU/hPRmUr6VaksGcZXRtvu8+kOTHFcWNZxeoN9y3aGXh8b2Ddc8ChYS6vakRMi9ZbI9R1gKLabYX7dA==" />
         
             <div class="notTradingIPO floatR margin0px">
                 Select time range to see more trades:
@@ -1473,306 +1473,6 @@ var qbUseNewNav = true;
 					                    <th>NLS Share Volume</th>
 				                    </tr>
 				                </thead>
-			                
-				                <tr>
-					                <td>09:59:59</td>
-					                <td>$&nbsp;801.01&nbsp; </td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:59:58 </td>
-					                <td>$&nbsp;801.02 &nbsp;</td>
-					                <td>200</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:59:57</td>
-					                <td>$&nbsp;801.1226&nbsp; </td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:59:46 </td>
-					                <td>$&nbsp;800.725 &nbsp;</td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:59:46</td>
-					                <td>$&nbsp;800.725&nbsp; </td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:59:46 </td>
-					                <td>$&nbsp;800.80 &nbsp;</td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:59:46</td>
-					                <td>$&nbsp;800.62&nbsp; </td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:59:46 </td>
-					                <td>$&nbsp;800.76 &nbsp;</td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:59:46</td>
-					                <td>$&nbsp;800.71&nbsp; </td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:59:39 </td>
-					                <td>$&nbsp;800.57 &nbsp;</td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:59:39</td>
-					                <td>$&nbsp;800.55&nbsp; </td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:59:39 </td>
-					                <td>$&nbsp;800.56 &nbsp;</td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:59:37</td>
-					                <td>$&nbsp;800.6335&nbsp; </td>
-					                <td>110</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:59:36 </td>
-					                <td>$&nbsp;800.61 &nbsp;</td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:59:25</td>
-					                <td>$&nbsp;800.60&nbsp; </td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:59:24 </td>
-					                <td>$&nbsp;800.8075 &nbsp;</td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:59:24</td>
-					                <td>$&nbsp;800.78&nbsp; </td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:59:19 </td>
-					                <td>$&nbsp;800.74 &nbsp;</td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:59:19</td>
-					                <td>$&nbsp;800.74&nbsp; </td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:59:12 </td>
-					                <td>$&nbsp;800.945 &nbsp;</td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:59:12</td>
-					                <td>$&nbsp;800.95&nbsp; </td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:59:12 </td>
-					                <td>$&nbsp;800.85 &nbsp;</td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:58:50</td>
-					                <td>$&nbsp;800.68&nbsp; </td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:58:50 </td>
-					                <td>$&nbsp;800.74 &nbsp;</td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:58:48</td>
-					                <td>$&nbsp;800.525&nbsp; </td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:58:47 </td>
-					                <td>$&nbsp;800.55 &nbsp;</td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:58:47</td>
-					                <td>$&nbsp;800.64&nbsp; </td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:58:47 </td>
-					                <td>$&nbsp;800.58 &nbsp;</td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:58:46</td>
-					                <td>$&nbsp;800.55&nbsp; </td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:58:46 </td>
-					                <td>$&nbsp;800.56 &nbsp;</td>
-					                <td>200</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:58:46</td>
-					                <td>$&nbsp;800.465&nbsp; </td>
-					                <td>200</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:58:46 </td>
-					                <td>$&nbsp;800.465 &nbsp;</td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:58:46</td>
-					                <td>$&nbsp;800.465&nbsp; </td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:58:46 </td>
-					                <td>$&nbsp;800.465 &nbsp;</td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:58:46</td>
-					                <td>$&nbsp;800.575&nbsp; </td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:58:46 </td>
-					                <td>$&nbsp;800.465 &nbsp;</td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:58:46</td>
-					                <td>$&nbsp;800.60&nbsp; </td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:58:46 </td>
-					                <td>$&nbsp;800.60 &nbsp;</td>
-					                <td>126</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:58:31</td>
-					                <td>$&nbsp;800.415&nbsp; </td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:58:26 </td>
-					                <td>$&nbsp;800.545 &nbsp;</td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:58:07</td>
-					                <td>$&nbsp;800.515&nbsp; </td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:58:03 </td>
-					                <td>$&nbsp;800.515 &nbsp;</td>
-					                <td>200</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:57:58</td>
-					                <td>$&nbsp;800.78&nbsp; </td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:57:57 </td>
-					                <td>$&nbsp;800.675 &nbsp;</td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:57:53</td>
-					                <td>$&nbsp;800.50&nbsp; </td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:57:53 </td>
-					                <td>$&nbsp;800.4936 &nbsp;</td>
-					                <td>200</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:57:52</td>
-					                <td>$&nbsp;800.58&nbsp; </td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:57:51 </td>
-					                <td>$&nbsp;800.54 &nbsp;</td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:57:51</td>
-					                <td>$&nbsp;800.58&nbsp; </td>
-					                <td>100</td>
-				                </tr>
-			                
-				                <tr>
-					                <td>09:57:43 </td>
-					                <td>$&nbsp;800.5373 &nbsp;</td>
-					                <td>100</td>
-				                </tr>
 			                	
 			        </table>
 			    </div>			
@@ -1786,7 +1486,7 @@ var qbUseNewNav = true;
 </div>
             <div>
                 <ul id="pager">
-                    <ul class="pager"><li><span id="quotes_content_left_lb_FirstPage" class="pagerlinkd">&lt;&lt; first</span></li><li><span id="quotes_content_left_lb_PreviousPage" class="pagerlinkd">&lt; previous</span></li><li><span id="quotes_content_left_lb_1" class="pagerlinkd">1</span></li><li><a href="http://www.nasdaq.com/symbol/goog/time-sales?time=1&pageno=2" class="pagerlink">2</a></li><li><a href="http://www.nasdaq.com/symbol/goog/time-sales?time=1&pageno=3" class="pagerlink">3</a></li><li><a href="http://www.nasdaq.com/symbol/goog/time-sales?time=1&pageno=4" class="pagerlink">4</a></li><li><a href="http://www.nasdaq.com/symbol/goog/time-sales?time=1&pageno=5" class="pagerlink">5</a></li><li><a href="http://www.nasdaq.com/symbol/goog/time-sales?time=1&pageno=10" class="pagerlink">10</a></li><li><a href="http://www.nasdaq.com/symbol/goog/time-sales?time=1&pageno=15" class="pagerlink">15</a></li><li><a href="http://www.nasdaq.com/symbol/goog/time-sales?time=1&pageno=20" class="pagerlink">20</a></li><li><a href="http://www.nasdaq.com/symbol/goog/time-sales?time=1&pageno=2" id="quotes_content_left_lb_NextPage" class="pagerlink">next &gt;</a></li><li><a href="http://www.nasdaq.com/symbol/goog/time-sales?time=1&pageno=20" id="quotes_content_left_lb_LastPage" class="pagerlink">last &gt;&gt;</a></li></ul>
+                    
 			    </ul>
 			</div>
 		</div>

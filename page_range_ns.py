@@ -4,10 +4,10 @@ from largest_number import findLargestNumber
 import urllib2
 
 #find page range function || reads only text
-def page_range(ticker):
+def page_range(ticker, time):
 
 #read initial page range
-    response = urllib2.urlopen('http://www.nasdaq.com/symbol/'+ str(ticker) + '/time-sales?time=1')
+    response = urllib2.urlopen('http://www.nasdaq.com/symbol/'+ str(ticker) + '/time-sales?time='+str(time))
     page = response.read()
     with open("page_test.txt", "w") as f:
         f.write(page)
@@ -24,3 +24,4 @@ def page_range(ticker):
 #call largest number function on open text file
     page_r = findLargestNumber(clean_line)
     return page_r
+    

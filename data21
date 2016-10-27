@@ -83,7 +83,7 @@ nasdaqIndexRow.init("NasdaqDjiaspx");
 <!-- End includes/head-quotes-content.inc -->
 
 <script type="text/javascript">
-    var server_time = new Date(1477561822868);
+    var server_time = new Date(1477561342109);
 </script>
 
 
@@ -1097,7 +1097,7 @@ var qbUseNewNav = true;
 		        <div class="jcarousel-container jcarousel-container-horizontal">
 		            <div class="jcarousel-clip jcarousel-clip-horizontal">
 				        <ul class="jcarousel-list jcarousel-list-horizontal" id="mycarousel" style="width:795px">
-<li class="jcarousel-item jcarousel-item-horizontal jcarousel-item-0 jcarousel-item-0-horizontal" jcarouselindex="0"><span><a class="qn_ontab" href="http://www.nasdaq.com/symbol/goog/time-sales?time=1">GOOG</a></span></li>
+<li class="jcarousel-item jcarousel-item-horizontal jcarousel-item-0 jcarousel-item-0-horizontal" jcarouselindex="0"><span><a class="qn_ontab" href="http://www.nasdaq.com/symbol/goog/time-sales?time=1&pageno=2">GOOG</a></span></li>
 </ul>
   			        </div>
 		        </div>
@@ -1405,11 +1405,11 @@ var qbUseNewNav = true;
         The NASDAQ Last Sale Intraday Trade History Report shows real-time time and sales data for all of your favorite U.S. stocks (listed on NASDAQ, NYSE, and AMEX).
     </p>
     <form method="post" action="/symbol/goog/time-sales" id="form1">
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="GzC5mDVO4C//NfTN7H0wGv4NdJE5ghJ5SU9tmcF+zyjfmI4KC/DdTNnjMQG7CVGWDWSJUx2TTkVNuWUbokLDKXnUzS+jQtcU7544xtuGZthgD+Hn6pHqhI9+oPxXhD3gIW8MrDOvRo1RDXVfvVpC3aQA8nhJPVoMAhlA17NrXgmcUP/KOIC9ke7byIRarLFA6ejMD44h7kYdaXgny84JAMyuwRAMTmP0PQnWgd6xgHhmY0yumyNfQZAicFw3wUin1l8NRpdY/9EJKnJ+yuxCeH+TeFdVOq1MyI6GQjbA9NoQA02nOVaN2ck1m5H63lzyFNBFCWOuV7IOovMKOV6jhMlFtaPzxNsRZdgVlA6tYOmWQ0xhxBAF3AnJtT8Qv1scwgkUUDIrCSbpxd+Ku8EnHgyEqhOulELs6jXoUUL7Vl6n6MxcsTWJu5HHP3o1A/+wA6Wr/NngNzHT7DIuc5euPbSuWDlz5hbGYhutkrhK9+zAkgi1cV1clqOaXGhpOF8tQfft+52GA2VS0xBlceaif8/6d4e4cBZgFLNsQ5SMQPdbpLkE22nc38DoFPAndFH3RrrNrfgTG7Z/3nNGX47ozz+l0oijPZG6+SsbGNuu0gefiwehC2neOfB7f+FyRboxZ34ss+CCFYlqGIdF5/RBFj1CahibO2Y3zYcps9VQLlfoG6N55TntR5fFiXZN0qt3J8ttxXu6XaexVMITlAPJMA==" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="eejkEde98i3T3SiYlMU6g+nbxnZzcViQEtFct+WT1Sf7O7iFa5pbtNtIemClmEsxEaV9ePRiPgDDYQFAPHDXfGivX3yJytLKnlNsMOynKZ8qBz2x6ArqhMkELYUd2K431pzIQkgMSZSp0kGIu/9c+1STleY9NqMK9LbLRzNp6w1JFkHrMrDh64tlguuKazMsQKe2hDmoqc9s0yEirXfBBbtpVXJa6tkg+U5gEkJs2Zxb9azF7AzmQZ6ywOpAUjRcejy1m1RDrLbck1DkfoqcTKusN8kZSgyWgYwtJs5laq1sIpgFxlCJoc8Ne+J2M8HzzmPaJlzqQxqOyFtPlo7B6ExM4a4h/lUlRbdq0FJ/tlGgNnzi42RKYMPywHhzo+yDDJTae17dMVgyxgwn2o037CGSmjKggMEbgVYn7ehtT73TeiFK5xxM/F5hb6yxgbltfRosbLIY4ms5nehodNvd/pFgCIOb8Kls41JaaOUxke0FftcKsY6K8Q7sx3oWdjeG7CxvYf1kX3VpFBtqiZRLrJNcO5R/I8atRYFHZTjEps96OU7PK2IhyCa616C2893WWi2m3ZWmpB7oKr5DjXpZnflTy5e3QTrBfIG9GpwQMHxw+CWfw6nMk6BSY39iq5BhF/amT6bBn4T28sAODIR0v1EOsxp3rRqffrUUY1rL6piDvo3XqfG0YBVAQUa8JKxu" />
 
 <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="0BF1D087" />
 <input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
-<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="kgI8Nuznq6iG0gor9KGx5KqLDcalSZefg+mwb7yQ73Fwc8SZObjGkRIhDE/f2Kj3UzmNARIT0vT8ldfmXYMH90iXVx0960v7txYzgs5eBoO01WJMVkEhPEg+Gc20OzMdjWrd393XY3PNMmvBAlE+pYDRqZJXzdcr9eKEg8uBmMTPlXtoCMHiFwcRYzoMjE1pPSEAg7GKNkRAyqC+tljhpp6euSVSdlQtGChUbn6qhMk17RYpniC/egfspeammnJq76SWyokggOUyGtkiil/oLRFeGXSgm60v7pkfJqbSni282soQEBse+XpAhns76RymI6ZbdENkBYJJ6uCzImP3wDOOJRpCfmzyrEFav/qoDNXfL9S8ipGn+H7oSemE1fIrM8T6UCG/p8MEvLiH5F6+mA==" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="ViCpIH/IsaL72B0BQ2sAIdK6lSDXxy7ayBQwIu0dSoatSb6L0o4c/iiKN4jtzE3l2WHVb2y2izcJsqX74pw0mm07UsMKEP4RhiF2wwwytEi+LTQAKNCu1ybiGxMaMR1trf/uC8DU3PVyXLL86wft/GpIzeKIVsCqqcU7l3ecxAtNVuDgCl2ziYBWqJb+YkQzAMX6tc5DbFKVEeZpUeU7xUreBAKdiblt+DCs033w4Br/q5EcUEbQcOlBYijKa2CYJi4ADsl4Osf3g5frpqvx+dE4GfrvPAK9U0vUWJsHEBl+pgbVQTjPns4KRsfD8kP9a9khZdNUfRZaPU9xejhkSFUe3hAx5VWsqrLeLVtUXtHrEk+ybDSOflBCuVIpJPVQCMnG2OoOGB1bCsDH2xM81w==" />
         
             <div class="notTradingIPO floatR margin0px">
                 Select time range to see more trades:
@@ -1486,7 +1486,7 @@ var qbUseNewNav = true;
 </div>
             <div>
                 <ul id="pager">
-                    
+                    <ul class="pager"><li><a href="http://www.nasdaq.com/symbol/goog/time-sales?time=1" class="pagerlink">&lt;&lt; first</a></li><li><a href="http://www.nasdaq.com/symbol/goog/time-sales?time=1&pageno=-1" class="pagerlink">&lt; previous</a></li><li><a href="http://www.nasdaq.com/symbol/goog/time-sales?time=1&pageno=0" class="pagerlink">0</a></li><li><span id="quotes_content_left_lb_NextPage" class="pagerlinkd">next &gt;</span></li><li><span id="quotes_content_left_lb_LastPage" class="pagerlinkd">last &gt;&gt;</span></li></ul>
 			    </ul>
 			</div>
 		</div>
