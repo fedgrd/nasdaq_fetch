@@ -7,6 +7,10 @@ specify the stock ticker and will copy the output in a text file organized by ti
 - cd path to directory
 - python run.py
 - specify ticker 
+OR 
+- open the terminal
+- python + drag and drop the run.py file
+- specify ticker
 
 The script will save the data in output.txt in the same folder containing run.py.
 
